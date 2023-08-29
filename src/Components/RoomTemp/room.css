@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  
+  .button-div {
+    text-align: center;
+  }
+  
+  .controls {
+    text-align: center;
+  }
+  
+  .inc,
+  .dec {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .temp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .on {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    outline: none;
+    border: solid rgb(24, 9, 230);
+    color: rgb(24, 9, 230);
+  }
+  
+  .off {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    outline: none;
+    border: solid red;
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .value {
+    color: blue;
+  }
